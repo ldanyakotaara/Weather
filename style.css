@@ -1,0 +1,133 @@
+body {
+
+    
+    user-select: none;
+   
+    }
+
+    .weather{
+        position: relative;
+        display: grid;
+        width: 432px;
+        padding: 13px;
+        grid-gap: 4px;
+        grid-template-rows: 100px repeat(4, 1fr);
+        
+        background: url(./pic/Горы.jpg) 100% 100%;
+        
+        border-radius: 20px;
+        font-family: Ubuntu Condensed;
+        font-style: normal;
+        font-weight: normal;
+        height: 768px;
+        left:40%;
+        
+    }
+
+    input{
+        outline: none;
+        border: none;
+        padding: 12px;
+        position: absolute;
+        border-radius: 0 10px 0 10px;
+        box-shadow: 3px 4px 20px rgba(0, 0, 0, 0.25);
+        width: 351px;
+        height: 19px;
+        left: 38px;
+        top: 35px;
+    }
+
+    .city{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+        
+    
+    }
+    .City1{
+    justify-self: center;
+    align-self: center;
+    text-align: center;
+    font-size: 50px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 59px;
+    }
+
+    .week{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 30px;
+    }
+
+    .temp{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    }
+    .deg{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 75px;
+    line-height: 89px;
+    }
+
+    .line{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 59px;
+    }
+
+    .clouds{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    color: white;
+    }
+
+    .broken{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    }
+
+    .gradus{
+        font-family: Rubik;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 30px;
+
+    }
+
+    .aboba{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); 
+        justify-items: center;
+        align-items: center;
+        color: white;
+    }
+
+    .degreeRed{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    }
+
+    .forecastDay{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    }
